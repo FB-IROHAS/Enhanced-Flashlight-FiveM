@@ -2,22 +2,13 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'IROHAS'
-description 'FiveM Rappelling System for QBCore'
+description 'FiveM Enhanced Flashlight System'
 version '1.0.0'
 
 client_scripts {
-    'client/main.lua',
-    'module/*.lua'
+    'client/client.lua',
 }
 
 server_scripts {
     'server/server.lua'
-}
-
-shared_scripts {
-    'config.lua',
-}
-
-dependencies {
-    'qb-core'
 }
